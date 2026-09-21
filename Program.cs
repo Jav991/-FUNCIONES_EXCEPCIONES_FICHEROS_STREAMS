@@ -52,6 +52,9 @@ namespace FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS
 
             /*u.Excepciones("abc");*/
            u.Excepciones("123");
+
+           /* Ejercicio 11*/
+           u.edad();
         }
     }
 }

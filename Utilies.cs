@@ -82,7 +82,22 @@ public class Utilies
             Console.WriteLine("No se puede covertir, ¡Sorry 😥😥!");
             return 0;
         }
-       
+    }
+
+    public int edad()
+    {
+        Console.WriteLine("Introduzca su edad por favor: ");
+        try
+        {
+          int edad = int.Parse(Console.ReadLine()!);
+          Console.WriteLine($"La edad suya es: {edad}");
+          return edad;
+        }  
+        catch (System.Exception)
+        {
+            Console.WriteLine("El valor introducido no es válido, ¡Sorry 😥😥!");
+            return 0;
+        };
     }
 }
 
