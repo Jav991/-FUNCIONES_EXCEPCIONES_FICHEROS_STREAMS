@@ -44,6 +44,8 @@ namespace FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS
             int doble, triple;
             u.ObtenerDobleYTriple(5, out doble, out triple);
             Console.WriteLine($"El doble es: {doble} y el triple es: {triple}");
+
+            u.cuentAtras(5);
         }
     }
 }

@@ -56,6 +56,19 @@ public class Utilies
         triple = numero * 3;
         
     }
+
+    /*Ejercicio 9*/
+
+    public int cuentAtras(int numero)
+    {
+        for (int i = numero; i > 0; i--)
+        {
+            Console.WriteLine(i);
+        }
+        return 0;
+    }
 }
+
+
 
 
