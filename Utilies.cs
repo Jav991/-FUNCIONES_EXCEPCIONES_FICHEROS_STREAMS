@@ -40,5 +40,13 @@ public class Utilies
     {
         numero = 100;
     }
+
+    /*Ejercicio 7*/
+
+    public void Cambiar(ref int numero)
+    {
+        numero = 100;
+    }
+ 
 }
 

@@ -32,6 +32,11 @@
             int numeroCambiado = 10;
             u.cambiar(numeroCambiado);
             Console.WriteLine($"El valor es: {numeroCambiado}");
+
+            /*Ejercicio 7*/
+             int numeroref = 10;
+            u.Cambiar(ref numeroref);
+            Console.WriteLine($"El valor es: {numeroref}");
         }
     }
 }
