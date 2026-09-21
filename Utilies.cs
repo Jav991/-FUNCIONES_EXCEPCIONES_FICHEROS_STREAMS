@@ -27,3 +27,14 @@ public class Operaciones
         return sumar;
     }
 }
+
+/*Ejercicio 4*/
+
+
+public class Media
+{
+    public static double Calculo(double a, double b, double c)
+    {
+        return (a+b+c)/3;
+    }
+}

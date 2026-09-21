@@ -15,6 +15,11 @@
             no a una instancia. C# no permite llamarlos desde una variable*/
             int resultado = Operaciones.Sumar(10, 5); /*Ejecución del ejércicio 3*/
             Console.WriteLine($"El resultado de la suma es: {resultado}");
+
+            /*Ejercicio 4 */
+
+            double r = Media.Calculo(5, 5 , 5);
+            Console.WriteLine($"El resultado de la media es: {r}");
         }
     }
 }
