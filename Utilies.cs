@@ -32,6 +32,13 @@ public class Utilies
     {
         string variable = "Calor espabila";
     }
-    
+
+    /* Bloque 2 🥱*/
+    /* Ejercicio 6*/
+
+    public void cambiar(int numero)
+    {
+        numero = 100;
+    }
 }
 

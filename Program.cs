@@ -25,6 +25,13 @@
             /* Ejercicio 5*/
             u.funcion();
            /* Console.WriteLine(variable);*/
+
+            /* Bloque 2 🥱*/
+            /* Ejercicio 6*/
+
+            int numeroCambiado = 10;
+            u.cambiar(numeroCambiado);
+            Console.WriteLine($"El valor es: {numeroCambiado}");
         }
     }
 }
