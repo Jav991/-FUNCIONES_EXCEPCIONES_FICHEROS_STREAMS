@@ -1,4 +1,6 @@
-﻿namespace FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS
+﻿using System.Runtime.CompilerServices;
+
+namespace FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS
 {
     public class FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS{
 
@@ -22,7 +24,7 @@
             double r = u.Calculo(5, 5, 5);
             Console.WriteLine($"El resultado de la media es: {r}");
 
-            /* Ejercicio 5*/
+            /* Ejercicio 5
             u.funcion();
            /* Console.WriteLine(variable);*/
 
@@ -37,6 +39,11 @@
              int numeroref = 10;
             u.Cambiar(ref numeroref);
             Console.WriteLine($"El valor es: {numeroref}");
+
+            /* Ejercicio 8*/
+            int doble, triple;
+            u.ObtenerDobleYTriple(5, out doble, out triple);
+            Console.WriteLine($"El doble es: {doble} y el triple es: {triple}");
         }
     }
 }

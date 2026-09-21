@@ -28,10 +28,10 @@ public class Utilies
         return (a+b+c)/3;
     }
 
-    public void funcion()
+    /*public void funcion()
     {
         string variable = "Calor espabila";
-    }
+    } */
 
     /* Bloque 2 🥱*/
     /* Ejercicio 6*/
@@ -47,6 +47,15 @@ public class Utilies
     {
         numero = 100;
     }
- 
+
+    /* Ejercicio 8 */
+
+    public void ObtenerDobleYTriple(int numero, out int doble, out int triple)
+    {
+        doble = numero * 2;
+        triple = numero * 3;
+        
+    }
 }
+
 
