@@ -13,7 +13,7 @@
 
             /*Los métodos estáticos pertenecen a la clase Operaciones, 
             no a una instancia. C# no permite llamarlos desde una variable*/
-          int resultado = Operaciones.Sumar(10, 5); /*Ejecución del ejércicio 3*/
+            int resultado = Operaciones.Sumar(10, 5); /*Ejecución del ejércicio 3*/
             Console.WriteLine($"El resultado de la suma es: {resultado}");
         }
     }
