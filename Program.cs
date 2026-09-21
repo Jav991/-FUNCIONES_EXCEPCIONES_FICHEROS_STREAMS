@@ -1,47 +1,50 @@
-﻿/*Console.WriteLine("Hello, World!");*/
-
-/* Ejercicio 1 Primera función 😎*/
-/*class Program
+﻿namespace FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS
 {
-   static void Main(string[] args)
-    {
-        mostrarMensaje();
-    }
-    static void mostrarMensaje()
-    {
-        Console.WriteLine("Bienvenido al programa");
-    }
-}*/
+    /*Console.WriteLine("Hello, World!");*/
 
-/*Ejercicio 2*/
-/*
-class Parametro
-{
+    /* Ejercicio 1 Primera función 😎*/
+    /*class Program
+    {
     static void Main(string[] args)
-    {
-        String nombre = "";
-        Saludar(nombre);
-    }
+        {
+            mostrarMensaje();
+        }
+        static void mostrarMensaje()
+        {
+            Console.WriteLine("Bienvenido al programa");
+        }
+    }*/
 
-    static void Saludar(string nombre)
+    /*Ejercicio 2*/
+    /*
+    class Parametro
     {
-        Console.WriteLine("Introduzca su nombre");
-        String n = Console.ReadLine()!;
-        Console.WriteLine($"Hola tu nombre es {n}");
+        static void Main(string[] args)
+        {
+            String nombre = "";
+            Saludar(nombre);
+        }
+
+        static void Saludar(string nombre)
+        {
+            Console.WriteLine("Introduzca su nombre");
+            String n = Console.ReadLine()!;
+            Console.WriteLine($"Hola tu nombre es {n}");
+        }
     }
-}
-*/
-/*Ejercicio 3*/
-class Operaciones
-{
-    static void Main(string[] args)
+    */
+    /*Ejercicio 3*/
+    class Operaciones
     {
-        int resultado = Sumar(10, 5);
-        Console.WriteLine($"El resultado de la suma es de: {resultado}");
-    }
-    static int Sumar(int a, int b)
-    {
-        int sumar = a + b; 
-        return sumar;
+        static void Main(string[] args)
+        {
+            int resultado = Sumar(10, 5);
+            Console.WriteLine($"El resultado de la suma es de: {resultado}");
+        }
+        static int Sumar(int a, int b)
+        {
+            int sumar = a + b; 
+            return sumar;
+        }
     }
 }
