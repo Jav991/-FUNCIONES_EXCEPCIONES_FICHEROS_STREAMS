@@ -1,50 +1,20 @@
 ﻿namespace FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS
 {
-    /*Console.WriteLine("Hello, World!");*/
+    public class FUNCIONES_EXCEPCIONES_FICHEROS_STREAMS{
 
-    /* Ejercicio 1 Primera función 😎*/
-    /*class Program
-    {
-    static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            mostrarMensaje();
-        }
-        static void mostrarMensaje()
-        {
-            Console.WriteLine("Bienvenido al programa");
-        }
-    }*/
+            /* Ejercicio 1*/
+            Saludar.mostrarMensaje();
+            
+            /*Ejercicio 2*/
+            string nombre = "";
+            Parametro.Saludar(nombre); /* Ejecución del ejercicio 2*/
 
-    /*Ejercicio 2*/
-    /*
-    class Parametro
-    {
-        static void Main(string[] args)
-        {
-            String nombre = "";
-            Saludar(nombre);
-        }
-
-        static void Saludar(string nombre)
-        {
-            Console.WriteLine("Introduzca su nombre");
-            String n = Console.ReadLine()!;
-            Console.WriteLine($"Hola tu nombre es {n}");
-        }
-    }
-    */
-    /*Ejercicio 3*/
-    class Operaciones
-    {
-        static void Main(string[] args)
-        {
-            int resultado = Sumar(10, 5);
-            Console.WriteLine($"El resultado de la suma es de: {resultado}");
-        }
-        static int Sumar(int a, int b)
-        {
-            int sumar = a + b; 
-            return sumar;
+            /*Los métodos estáticos pertenecen a la clase Operaciones, 
+            no a una instancia. C# no permite llamarlos desde una variable*/
+          int resultado = Operaciones.Sumar(10, 5); /*Ejecución del ejércicio 3*/
+            Console.WriteLine($"El resultado de la suma es: {resultado}");
         }
     }
 }
