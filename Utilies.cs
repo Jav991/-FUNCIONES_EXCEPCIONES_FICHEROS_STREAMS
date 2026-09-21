@@ -67,6 +67,23 @@ public class Utilies
         }
         return 0;
     }
+
+    /* Ejercicio 10*/
+    public int Excepciones(string texto)
+    {
+        try
+        {
+            texto = "abc";
+           int conversion = int.Parse(texto);
+            return conversion;
+        }
+        catch (System.Exception)
+        {  
+            Console.WriteLine("No se puede covertir, ¡Sorry 😥😥!");
+            return 0;
+        }
+       
+    }
 }
 
 
